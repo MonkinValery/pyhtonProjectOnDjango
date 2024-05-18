@@ -1,0 +1,12 @@
+Для установки данного приложения нужно выполнить следующие шаги:
+1. Создать виртуальное окружение
+    mkdir env
+    python3 -m venv env/pythonProject
+    source env/pythonProject/bin/activate
+2. Установить зависимости
+    pip install -r requirements.txt
+3. Создать супер пользователя
+    python manage.py createsuperuser
+4. Запуск сервера
+    python manage.py runserver
+5. Сайт доступен через любой браузер по ссылке: http://127.0.0.1:8000/
